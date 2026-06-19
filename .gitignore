@@ -1,0 +1,21 @@
+# Dados do cliente (proprietários — não versionar)
+data/*.xlsx
+data/*.csv
+!data/amostra*.xlsx
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Saídas auxiliares
+resultados_modelos.xlsx
+
+# Sistema
+.DS_Store
+Thumbs.db
